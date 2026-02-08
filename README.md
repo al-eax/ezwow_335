@@ -8,6 +8,8 @@ Back in the days, when cpp snake_case was cool and docker was new.
 I am sharing the unfinished code as a resource for people interested in learning about game hacking on Linux, 
 specifically as a base for a World of Warcraft WotLK 3.3.5 bot.
 
+__Please do not try to get this stuff running. Use it as inspiration for your own projects!__ 
+
 ## Overview
 
 - Hooks OpenGL to display an ImGui interface
