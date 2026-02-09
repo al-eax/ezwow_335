@@ -1,3 +1,5 @@
+# Please do not try to get this stuff running. Use it as inspiration for your own projects.
+
 
 EzWoW 3.3.5
 ===========
@@ -8,7 +10,7 @@ Back in the days, when cpp snake_case was cool and docker was new.
 I am sharing the unfinished code as a resource for people interested in learning about game hacking on Linux, 
 specifically as a base for a World of Warcraft WotLK 3.3.5 bot.
 
-__Please do not try to get this stuff running. Use it as inspiration for your own projects!__ 
+
 
 ## Overview
 
@@ -54,7 +56,7 @@ Download mmaps from https://github.com/Torrer/TrinityCore-3.3.5-data
 Build and run the database Docker container:
 
 ```sh
-cd lnxwow/db
+cd ./db
 docker build --tag trinity_db .
 docker run --rm -p 6603:3306 --name my-container trinity_db:latest
 ```
